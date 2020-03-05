@@ -11,9 +11,10 @@ body li:nth-child(even){
 }
 body li:last-child{
     word-spacing: 2em;
-    line-height: 20px;
+    
+    letter-spacing: 20px;
 }
-body p:last-child{
+.parrafo{
     word-spacing: 2em;
-    line-height: 20px;
+    letter-spacing: 20px;
 }

@@ -35,7 +35,7 @@ header{
     background-color: rgb(58, 85, 18);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    padding: 50px 0;
+    padding: 10px 0;
 }
 .foto{
     width: 100px;
@@ -95,4 +95,10 @@ td:first-child{
     background-color: blanchedalmond;
     /* hace que los div se vuelvan en una linea o a la altura */
     display:inline-block
+}
+div:last-child{
+    
+    margin-top: 30px;
+    
+    
 }

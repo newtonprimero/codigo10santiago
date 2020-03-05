@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+}
+body{
+    background-color: #F0F8ff;
+}
+.contenedor{
+    /* Si se le pone en px no se adadta cuado se achique la pantalla */
+    width: 400px;
+    background-color: #17A2B8;
+    height: 500px;
+    margin: auto;
+    margin-top: 2%;
+    padding-top: 60px;
+}
+.foto{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-image: url('avatarjpg.jpg');
+    background-size: 100%;
+    
+}
+.descripcion{
+    width: 390px;
+    height: 250px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+p:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+}
+p:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+p:last-child{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 23px;
+    font-size: 13PX;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.boton{
+    width: 300px;
+    margin: auto;
+    border-top:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+}
+button:nth-child(1){
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+button:first-child{
+    background-color: green;
+    border: green;
+    border-radius: 2PX;
+    padding: 5PX 7PX;
+    color: white;
+}
+button:last-child{
+    background-color: #17A2B8;
+    border: #17A2B8;
+    border-radius: 2PX;
+    padding: 5PX 7PX;
+    color: white;
+}
+div:last-child{
+    
+    margin-top: 20px; 
+    
+}
+img{
+    margin: 5px;
+    
+}
+/*se debe de poner en porcentage par aqque no se complique cuando se hachique pa apantalla 
+lorem10-> se le pone un numero para que tenga las palabra que deseamos*/

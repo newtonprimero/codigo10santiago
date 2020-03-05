@@ -1,0 +1,37 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+header{
+    margin-top: 3px;
+    padding: 15px;
+    border: 1px solid peru;
+    text-align: center;
+}
+#lineal{
+    background: -webkit-linear-gradient(top right, #000000,#ffffff,#00ff00,#dadada,#ffee23);
+}
+.circular{
+    /* primer parametro la posicion 
+    center,top,bottom,left,right,%
+    segundo parametro
+    forma=circle,ellipse
+    colores=2 a mas */
+    background:-webkit-radial-gradient(center,ellipse,black,white)
+    /* -webkit-ridial-gradient(center,circle,black,white); */
+}
+p{
+    /* Los valores van desde el 0 al 10 */
+    filter: blur(0.3px);
+}
+img{
+    /* admite valores entre 0 y 1 */
+    /* filter: grayscale(1); */
+    /* no se puede utilizar dos filter*2 */
+    /* contrast es contraste obiamente */
+/* invert invierte los colores de la imagen con sus  neagaativos mientras se aproxime mas al 1 seran mas intensos*/
+    filter: contrast(0.9) grayscale(1);
+    filter: invert(0.2);
+    /* en la pg 127 en el libro,en el pdf reader 142*/
+    /* esto se aplica tanbien para texto no es de mucha importancia*/
+}
