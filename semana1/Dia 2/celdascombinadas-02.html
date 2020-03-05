@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Celda Combinadas</title>
+</head>
+<body>
+    <header>
+        <h1>Celdas combinadas </h1>
+    </header>
+    <nav>
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#miseccion1">Ir a demostracion 1</a></li>
+            <li><a href="#miseccion2">Ir a demostracion 2</a></li>
+            <li><a href="#miseccion2">Ir a demostracion 3</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="miseccion1">
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td colspan="2">Fila 1 Columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Fila 2 columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Fila 3 columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Fila 4 columna 1</td>
+                        <td>Fila 4 columna 2</td>
+                    </tr>
+                    <tr>
+                        <td>Fila 5 Columna 2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section id="miseccion2">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Tabala Avanzada</th>
+                        <th colspan="4"> Cabecera Multiples Columnas</th>
+                    </tr>
+                    <tr>
+                        <th>columna 1</th>
+                        <th>columna 2</th>
+                    </tr>
+                    
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Fila 1</th> 
+                        <td> fila 1 columna 1</td>
+                        <td> fila 1 columna 2</td>
+                    </tr>
+                    <tr>
+                        <th>Fila 2</th> 
+                        <td> fila 2 columna 1</td>
+                        <td> fila 2 columna 2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">pie de tabla</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section id="miseccion3">
+            <table border="1">
+                <thead></thead>
+                <tr>
+                    <th>Fila 1 col 1</th>
+                    <th>Fila 1 col 2</th>
+                    <th>Fila 1 col 3</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <th colspan="2">fila 2 col 1 y 2</th>
+                        <th> fila 2 colm 3</th>
+                    </tr>
+                    <tr>
+                        <td>fila 3 col 1</td>
+                        <td colspan="2">fila 3 col 3 y 4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">fila 4 col 1 2 y 3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">fila 5 y fila 6</td>
+                        <td>fila 5 col2</td>
+                        <td rowspan="2">fila 5 y fila 6</td>
+                    </tr>
+                    <tr>
+                        <td>fila 6 col 2</td>
+                    </tr>
+                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="1"><img src="./imagen/imagenes-digitales.jpg" width="100" align=center></th>
+                        <th colspan="1"><img src="./imagen/imagenes-digitales.jpg" width="100" align=center></th>
+                        <th colspan="1"><img src="./imagen/imagenes-digitales.jpg" width="100" align=center></th>
+                    </tr>
+                </tfoot>
+            </table>
+            <p><input type="submit"></p>
+            <p><input type="range" name "edad" min="13" max="150" value="35"></p>
+            <? php print('el valor es')?>
+
+
+        </section>
+        <section>
+            <table border="4" wid>
+                <tr>
+                    <th>.............</th>
+                    <th></th>
+                    <th> 
+                        <table border="4">
+                            <tr>
+                                <th>     </th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </table>
+                    </th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>
+                        <table border="4">
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </table >
+                    </th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>
+                        <table border="4">
+                            <tr>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </table>
+                    </th>
+                    <th></th>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

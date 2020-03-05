@@ -1,0 +1,46 @@
+/* Se tiene que resetear los estilos para que chomer no de predeterminados*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* reset */
+html,body{
+height: 100%;
+}
+.section1{
+    width: 500px;
+    /* ancho-borde */
+    border-width: 1px;
+    /* estilo border solid dashed double groove*/
+    border-style: dotted;
+
+    border-color: blue;
+    height: 300px;
+    /* width: 300px; */
+    background-color: #000;
+    color: gray;
+    background-image: url(liga1.jpg);
+    background-repeat: repeat-y;
+    /* repeat-x orizontal
+    repeat-y vertical */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+body{
+    background-color: gray;
+}
+header{
+    background-color: #cc0668;
+}
+.section2{
+    background-image: url('./textura.jpeg');
+    height: 300px;
+}
+.section3{
+    height: 500px;
+    background-image: url('./espaciojpg.jpg');
+    background-size: 100%;
+    background-attachment:fixed ;
+}
+

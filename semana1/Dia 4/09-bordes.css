@@ -1,0 +1,42 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+html,body{
+    height: 100%;
+}
+header{
+    width: 500px;
+    /* grosor borde  */
+    border-width: 5px;
+
+    border-style: groove;
+
+    border-color: rgb(100, 200, 250);
+    
+}
+.section1{
+    height: 300px;
+    border-top: 5px dashed blue;
+    border-right:5px solid yellow;
+    border-bottom:5px groove red;
+    border-left:5px dotted green;
+}
+.section2{
+    height: 300px;
+    width: 300px;
+    border:2px solid purple;
+    /* border-radius: 20px; */
+    border-radius: 50%;
+    
+}
+.section3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid goldenrod;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:900px ;
+    border-bottom-right-radius:30px ;
+    margin: 0 auto;
+}

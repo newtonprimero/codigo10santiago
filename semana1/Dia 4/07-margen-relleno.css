@@ -1,0 +1,31 @@
+section{
+    border: 1px solid orange;
+    height: 300px;
+}
+div{
+    border: 1px solid blue;
+    width: 100px;
+    background-color: lawngreen;
+    
+}
+div:nth-child(2){
+    /* margen exterior */
+    /* margin-left: 986px es el margen maximo para que este visible en la ventana    */
+    /* arriba */
+    margin-top: 20px;
+    /* izquierda */
+    margin-left: 10px;
+    /* derecha */
+    margin-right: 5px;
+    /* abajo */
+    margin-bottom: 30px;
+    padding: 15px;
+}
+div:nth-child(1){
+    background-color: lightcoral;
+    /* padding-top: 10px;
+    padding-left: 20px; */
+    /* va en el sentido de las agujas del reloj  se apresia mejor al inspeccionar la pagina*/
+    padding: 10px 20px 12px 32px;
+    margin: 20px 15px 12px 5px;
+}
