@@ -1,0 +1,33 @@
+/* pseudoclases */
+/* selector:pseudoclase */
+/* segun la posicion del elemnto colocara el estilo */
+p:nth-child(3){
+    color:blue;
+    font-weight: bold;
+}
+/* cogera el primer elemnto */
+p:first-child{
+    color:red;
+
+}
+/* cogera el ultimo elemento */
+p:last-child{
+    color:brown;
+
+}
+/* modifica a los elemnrto impares */
+tr:nth-child(odd){
+    background-color:aquamarine;
+}
+tr:nth-child(even){
+    background-color: darkgoldenrod;
+}
+thead tr:nth-child(1){
+    background-color: blueviolet;
+    color: white;
+}
+/*  */
+div:not(.excepcion){
+    font-size:20px; 
+    border:1px solid blue;
+}

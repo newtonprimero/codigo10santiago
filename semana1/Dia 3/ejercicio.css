@@ -1,0 +1,20 @@
+.parrafo{
+    border:1px solid indigo;
+    width: 50%;
+    background-color:#cc05d4;
+    color:indigo;
+
+}
+.parrafo2{
+    border: 1px solid blueviolet;
+    text-align: center;
+    word-spacing: 2rem;
+}
+.parrafo3{
+    border:2px solid greenyellow;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align-last:right;
+    font-weight: 50px;
+    overflow-x: hidden;
+}

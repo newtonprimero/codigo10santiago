@@ -1,0 +1,22 @@
+header{
+    border: 1px solid salmon;
+    width: 50%;
+}
+section{
+    font-size: 70px;
+}
+div{
+    border: 1px solid blue;
+    width: 50%;
+}
+/* rem es la unidad de medida Relativa que depende directamente del elemnto raiz de la pagin, en este caso seria el tamaño de la fuente html*/
+section p{
+    font-size: 2rem;
+}
+body{
+    font-size: 20px;
+}
+/* em es la unidad de medida relativa que depende del ultimo font-size definida dentro del elmento que se encuentre */
+.parrafo{
+    font-size: 2em;
+}

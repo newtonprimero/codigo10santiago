@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Propiedades del Texto</title>
+    <link rel="stylesheet" href="05-propiedades-texto.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    </header>
+    <nav>
+    </nav>
+    <main>
+        <h1>Propiedades de la Fuente</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Propiedad</th>
+                    <th>Descripcion</th>
+                    <th>Ejemplo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>font-family</code></td>
+                    <td>Definira el tipo de fuente del elemnto la propiedad se establece en el oreden en el que se
+                        especifica</td>
+                    <td>
+                        <p class="c-font-family">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+                            beatae vel sint? Illum,
+                            eius, debitis corporis saepe impedit quo at consequuntur amet ratione accusantium
+                            repellendus commodi eveniet asperiores temporibus laborum.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>font-size</code></td>
+                    <td>Define el tamaño de la fuente, el tamaño prederteminado es de 16px, y los valores admitidos son
+                        en %, px, rem, em</td>
+                    <td>
+                        <p style="font-size: 120%;" class="c-fond-size">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Et quia obcaecati qui sequi magni
+                            delectus consequatur ducimus enim vero ratione labore facere veniam fuga voluptas
+                            dignissimos, officiis dolor, id consectetur.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>font-weight</code></td>
+                    <td>define el tamaño de la fuente del elmento, susu valores son 'normal' y 'bold'
+                        algunas fuentes contienen otros valores [100-800]
+                    </td>
+                    <td class="c-font-weiht">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, odio
+                        molestias.
+                        Praesentium, nihil? Enim veritatis cum quia in expedita dignissimos exercitationem perspiciatis
+                        dolore quaerat illum sed, eligendi eum officia perferendis.</td>
+                </tr>
+                <tr>
+                    <td><code>font-style</code></td>
+                    <td>Define el estilo de la fuente puede tener valores como 'normal', 'oblique', 'italic'</td>
+                    <td class="c-font-style">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex minus illum
+                        reprehenderit eveniet
+                        laboriosam quas porro iste ut quae. Doloribus voluptates quae aperiam dolorum qui possimus aut
+                        magni labore earum!</td>
+                </tr>
+                <tr>
+                    <td><code>font</code></td>
+                    <td>Combina todas las propiedades del texto font-style font-syle y font-family. El orden para usar
+                        esta propiedad es |style|weith|size|family|
+                    </td>
+                    <td>
+                        <p class="c-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolorem
+                            accusantium sit autem fuga, et illum provident sapiente recusandae ipsam eos rem dolorum?
+                            Fugit sint, consequatur quo error nihil beatae.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h1>Propiedades de texto</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Propiedad</th>
+                    <th>Descripcion</th>
+                    <th>Ejemplo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>text-aling</code></td>
+                    <td>Esta propiedad alinea el texto dentro de un elemento. Sus valores son left, right, center,
+                        justify</td>
+                    <td>
+                        <p class="c-text-aling">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odio
+                            nesciunt ipsa, quasi, dicta iusto quaerat at veritatis dolorem sunt ea sit adipisci nostrum
+                            neque. Maxime illum aut natus quidem.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>text-aling-last</code></td>
+                    <td>Alinea la ultima linea del parrafo. Sus valores pueden ser left,rigth,center,justify</td>
+                    <td>
+                        <p class="c-text-laign-last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                            repellendus dolore eveniet consectetur, architecto voluptatem magni aspernatur non quasi
+                            aliquid dolores esse, quibusdam adipisci? Alias, hic atque! Iste, eveniet veritatis!</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>letter-spacing</code></td>
+                    <td>Sus valores pueden ser espacio entre letras y letras en un mismo parrafo</td>
+                    <td>
+                        <p class="c-letter-spacing">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+                            deserunt, doloribus recusandae nihil nesciunt modi libero soluta culpa incidunt ratione quas
+                            aperiam quisquam fugit. Consectetur earum nihil eaque laboriosam excepturi?</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>word-spacing</code></td>
+                    <td>Esta propiedad deivide solo el ancho entre las palabras sus valores son %,px,rem,em</td>
+                    <td>
+                        <p class="c-word-spacing">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+                            illum! Quae deleniti labore magnam. Necessitatibus, pariatur exercitationem saepe numquam et
+                            aperiam sequi perferendis aliquid laudantium. Inventore repellat dolor reiciendis voluptate?
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>line-height</code></td>
+                    <td>defiene el espacio entre las lineas sus valores son % px rem em</td>
+                    <td>
+                        <p class="c-line-height">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+                            aut dolores incidunt laboriosam esse, quidem laudantium facere sint illum? Quis a laborum
+                            placeat recusandae quae amet ipsa facilis molestiae tenetur?</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>vertical-align</code></td>
+                    <td>Esta propiedad alinea el texto verticalmente se usa para alinear el texto con las imagenes puede
+                        ser:
+                        baseline, sub,super,text-top,midle,top,bottom</td>
+                    <td>
+                        <p class="c-vertical-aling">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                            dolores <img src="laptop.png" class="c-vertical-aling  alt=""> explicabo recusandae natus itaque ipsam possimus, inventore reiciendis quibusdam
+                            minima pariatur ducimus esse soluta ipsa laboriosam ea consequatur doloremque ad.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <table border=" 1">
+                            <thead>
+                                <tr>
+                                    <th>Propiedades</th>
+                                    <th>Descripsion</th>
+                                    <th>Ejemplos</th>
+                                </tr>
+                            </thead>
+            <tbody>
+                <tr>
+                    <td><code>rgb()</code></td>
+                    <td>Mediante la combinacion de los colores primario RED GREEN BLUE podemos optener el color que
+                        querramos. Admite el valores desde el 0 al 255</td>
+                    <td>
+                        <p class="c-rgb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quam
+                            blanditiis aut aspernatur qui molestiae impedit autem. Quas, aliquid. Accusantium commodi
+                            distinctio nesciunt modi, vero blanditiis ipsa culpa provident voluptatibus.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code> rgba()</code></td>
+                    <td>Este valor tiene un para metro extra en relacion al rgb, que nos va indicar el grado de
+                        trasparencia quiero que tenga el color tiene valores del 0al 1 siendo el 1 su valor por defecto
+                    </td>
+                    <td>
+                        <p class="c-rgba">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda magnam
+                            accusamus, obcaecati soluta, hic repudiandae, porro itaque consequuntur facere rem
+                            dignissimos harum dolores voluptas unde cupiditate nihil mollitia fuga reprehenderit!</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h2>Dimenciones</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Propiedad</th>
+                    <th>Descripcion</th>
+                    <th>Ejemplo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>width</code></td>
+                    <td>Sirve para definir el ancho del elemnto, admite valores en % px y otras unidades de medida como
+                        el rem, em, hv</td>
+                    <td>
+                        <p class="c-width c-bordepunteado">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Maxime, quibusdam assumenda neque enim cumque voluptates earum quos at reiciendis amet?
+                            Laborum quo ratione quidem dolorem voluptate expedita eaque praesentium quas.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>height</code></td>
+                    <td>Propiedad que sirve para definir la altura del elemento, sus valores pueden ser porcentage px
+                        entre otros</td>
+                    <td>
+                        <p class="c-bordepunteado c-height">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Dignissimos
+                            obcaecati maxime adipisci, cupiditate odit ipsa repudiandae beatae, atque exercitationem,
+                            nostrum voluptas placeat temporibus. Suscipit cupiditate, quaerat velit harum odit nisi.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>overflow</code></td>
+                    <td>Es una propiedad que controlara los desvordes sus valores pueden ser visible, hidden,
+                        scroll(muestra barra de desplasamiento para ver los desplasamientos), auto</td>
+                    <td>
+                        <p class="c-bordepunteado c-height c-overflow"><span>Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Corporis saepe consectetur laudantium tenetur tempore, quasi unde,
+                                quam voluptatibus eveniet, expedita deserunt quaerat cum explicabo eos facere voluptatem
+                                beatae dolorem quis.</span><span>Veritatis doloribus ex beatae possimus nam quasi
+                                cupiditate magnam excepturi rem modi assumenda sapiente iusto esse quia quae repellendus
+                                incidunt laborum eum, nemo nobis vero eos. Saepe excepturi modi mollitia.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>overflow-x</code></td>
+                    <td>Especifica en el eje Horizontal si se va mostrar un barra de desplazamiento del contenido que se
+                        desborda sus valores pueden ser hiden visible y auto</td>
+                    <td>
+                        <p class="c-bordepunteado c-height c-overflow-x">Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Doloremque, accusamus quasi suscipit ab debitis consequatur rem ducimus
+                            ullam rerum eaque quis illum eum quia nulla assumenda harum repudiandae. Commodi, animi.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>overflow-y</code></td>
+                    <td>Especifica en el eje vertical si se va mostrar un barra de desplazamiento del contenido que se
+                        desborda sus valores pueden ser hiden visible y auto</td>
+                    <td>
+                        <p class="c-bordepunteado c-height c-overflow-y">Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Quas cupiditate rerum ea sapiente? Nostrum laboriosam maxime non quo
+                            similique commodi unde earum labore aliquid dolorem perspiciatis, dolor rem? Placeat,
+                            impedit?</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+</body>
+
+</html>

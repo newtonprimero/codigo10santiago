@@ -1,0 +1,72 @@
+@font-face{
+    font-family: "mi fuente";
+    src: url('Coronavirus.otf');
+}
+code{
+    font-family: 'Cormorant', serif;
+    color:purple;
+}
+.c-font-family{
+    font-family: 'mi fuente';
+    color:black;
+}
+.c-fond-size{
+    color:darkblue;
+}
+.c-font-weih{
+    font-weight: bold;
+}
+.c-font-style{
+    font-style: italic;
+}
+.c-font{
+    font: oblique bold 20px 'comic-sans';
+}
+.c-text-align{
+    text-align: center;
+}
+.c-text-align-last{
+    text-align-last: right ;
+}
+.c-letter-spacing{
+    letter-spacing: 20px;
+}
+.c-word-spacing{
+    word-spacing: 20px;
+}
+.c-line-height{
+    line-height: 16px;
+}
+.c-vertical-aling{
+    
+    vertical-align: text-bottom;
+}
+.c-rgb{
+    color:rgb(223, 74, 28)
+}
+.c-rgba{
+    color:rgba(202, 178, 18, 0.6)
+}
+.c-bordepunteado{
+    /* dashet el punteado pero lineal 
+    punteado pero con puntos de separacion
+    soli es color solido 
+    none que es sin linea   */
+    border:1px dashed #123456;
+}
+.c-width{
+width: 50%;
+}
+.c-height{
+    height: 30px;
+}
+.c-overflow{
+    overflow: auto;
+}
+.c-overflow-x{
+    overflow-x: hidden;
+}
+.c-overflow-y{
+    overflow-x: hidden;
+}
+

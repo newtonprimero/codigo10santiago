@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border-box permitira poner el tamaño que yo defina  */
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+}
+body{
+    background-color: lightblue;
+}
+header{
+    border: 2px double #2266ff;
+    padding: 10px;
+    margin: 20PX auto;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.container{
+    width: 300px;
+    background-color: white;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: grey 5px 5px 20px;
+    border-radius: 20px;
+}
+.superior{
+    height: 200px;
+    background-color: rgb(58, 85, 18);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 50px 0;
+}
+.foto{
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+    border: 3px solid wheat;
+    border-radius: 50%;
+    background-image: url('avatarjpg.jpg');
+    background-size: 100%;
+}
+.superior h4{
+    font-family: 'Satisfy', cursive;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
+.inferior{
+    
+    padding: 35px;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+table{
+    margin: auto;
+    margin-top: 10px;
+}
+td{
+    padding: 3px;
+
+}
+td:first-child{
+    font-weight: bold;
+}
+.color1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: red;
+    display:inline-block
+}
+.color2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    background-color: blue;
+    display:inline-block
+}
+.color3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid blanchedalmond;
+    background-color: blanchedalmond;
+    /* hace que los div se vuelvan en una linea o a la altura */
+    display:inline-block
+}
