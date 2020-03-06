@@ -9,6 +9,7 @@ header{
     text-align: center;
 }
 #lineal{
+    /* webkit es para el tipo de naveegador firefox chrome safari ie */
     background: -webkit-linear-gradient(top right, #000000,#ffffff,#00ff00,#dadada,#ffee23);
 }
 .circular{
@@ -21,7 +22,7 @@ header{
     /* -webkit-ridial-gradient(center,circle,black,white); */
 }
 p{
-    /* Los valores van desde el 0 al 10 */
+    /* difuminado=>Los valores van desde el 0 al 10 */
     filter: blur(0.3px);
 }
 img{
@@ -31,7 +32,7 @@ img{
     /* contrast es contraste obiamente */
 /* invert invierte los colores de la imagen con sus  neagaativos mientras se aproxime mas al 1 seran mas intensos*/
     filter: contrast(0.9) grayscale(1);
-    filter: invert(0.2);
+    filter: invert(0.6);
     /* en la pg 127 en el libro,en el pdf reader 142*/
     /* esto se aplica tanbien para texto no es de mucha importancia*/
 }

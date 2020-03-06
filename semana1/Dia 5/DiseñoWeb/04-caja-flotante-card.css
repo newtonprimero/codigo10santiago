@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+}
+#cajapadre{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    
+}
+#contenedor{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    top: 0px;
+    transition: top 2s;
+}
+#superior{
+    width: 350px;
+    height: 300px;
+}
+#inferior{
+    width: 350px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contenedor:hover{
+    top: -20px;
+}

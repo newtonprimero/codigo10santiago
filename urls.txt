@@ -5,3 +5,8 @@ color.adobe.com   ----- pagina para colores
 
 pagina para contrastar
 https://uigradients.com/#IbizaSunset
+
+
+
+funciona para ver las funciones de css
+https://cssreference.io/

@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+}
+header{
+    background-color: orange;
+    width: 50%;
+    font-family: fantasy;
+    font-size: 40px;
+
+}
+.principal{
+    background-color: paleturquoise;
+    height: 100px;
+}
+.azul{
+    background-color: burlywood;
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    /* nunca poner inline  */
+}
+.articulo{
+    background-color: lightgreen;
+    width: 400px;
+    height: 150px; 
+     display: inline-block; 
+}
+span{
+    border: 2px solid brown;
+    background-color: brown;
+    display: block;
+}
+.cajas{
+    height: 100px;
+    width: 33.3%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    /* Line block siempre te crea un pequeño margen dentre los bloques no es recomendable usarlo */
+    display: inline-block;
+}
+.cajas:nth-child(1){
+    background-color: red;
+}
+.cajas:nth-child(2){
+    background-color: blue;
+}
+.cajas:nth-child(3){
+    background-color: yellow;
+}

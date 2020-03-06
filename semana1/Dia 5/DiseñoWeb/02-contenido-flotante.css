@@ -1,0 +1,16 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+} */
+section{
+    background-color: cornsilk;
+}
+section img{
+    float: right;
+}
+.repararfloat{
+    clear: both;
+}

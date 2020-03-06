@@ -1,0 +1,13 @@
+#noticias{
+    width: 600px;
+    padding: 10px;
+    border: 1px solid peru;
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-style: double;
+    column-rule-color: gold;
+    column-rule-width: 5px;
+
+
+    column-rule:10px dotted orange;
+}
