@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 10px;
+    border: 1px solid gray;
+    /* mantien los tamaños de la caja apesar de los bordes */
+    box-sizing: border-box;
+}
+/*
+.container{
+
+} */
+.block{
+    display: block;
+    width: 300px;
+    background-color: firebrick;
+}
+.inlineblock{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    display: inline-block;
+}
+.padre{
+
+}
+.caja1, .caja2, .caja3, .caja4, .caja5{
+    width: 200px;
+    height: 200px;
+    background-color: olivedrab;
+    float: left;
+}
+.reparar{
+    clear: both;
+}
+.caja2{
+    /* relativa a si mismo donde deberia posicionarte */
+    /* concideracones */
+    /* esta respetando la estructura html */
+    /* se mueve a partir de su posicion relativa */
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.caja4{
+    /* absolute :es como si yo removiera el elemento del html por tal motivo se pegan a caja 3 */
+    /* Se va colocar refernte al ultimo ancestro que tenga una posicion definida */
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: paleturquoise;
+}
+.padre{
+    /* ancestros  */
+    position: relative;
+}
+/* z-index se comporta como si fuera capas y adenas se necesita el position relativa (esto es para ver la caja 1) */
+.caja1{
+    position: relative;
+    z-index: 3;
+}
+.publicidad{
+    border: 2px dashed yellow;
+    background-color: greenyellow;
+    /* Es un elemnto pero apartir de la ventana del navegador */
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+

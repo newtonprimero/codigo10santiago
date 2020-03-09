@@ -10,3 +10,6 @@ https://uigradients.com/#IbizaSunset
 
 funciona para ver las funciones de css
 https://cssreference.io/
+
+para ver los colores se puede utilizar 
+https://color.adobe.com/es/create
