@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid gray;  */
+}
+html,body{
+    height: 100%;
+}
+.contenedor{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #100e17;
+}
+.logo{
+    flex-basis: 200px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.items{
+    flex-basis: 600px;
+    flex-grow: 6;
+    display: flex;
+    
+}
+.buscar{
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+.logo span{
+    font-family: 'Sen', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color: white;
+     margin-left: 12px; 
+    /* margin: 3px; */
+}
+.logo i{
+    color: #FF8A00;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    color: #c2c2c2;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscar input{
+    width: 150px;
+    height: 25px;
+    border-radius: 10px 0 0 10px;
+    background-color: #201C29;
+    border: 1px solid #312D3C;
+}
+.buscar button{
+    width: 40px;
+    height: 25px;
+    border-radius: 0 10px 10px 0;
+    background-color:#FF8A00;;
+}
+.buscar i{
+    color: white;
+}
+#n1:hover{
+    color: #FF8A00;
+}
+#n2:hover{
+    color: #CB2C67;
+}
+#n3:hover{
+    color: #F44336;
+}
+#n4:hover{
+    color: #9C27B0;
+}
+#n5:hover{
+    color: #03A9F4;
+}
+#n6:hover{
+    color: #4CAF50;
+}
+#n7:hover{
+    color: #719A42;
+}

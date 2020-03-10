@@ -1,0 +1,49 @@
+.contenedor{
+    width: 900px;
+    height: 400px;
+    border: 1px solid blue;
+    padding: 10px;
+    display: flex; 
+    /* felx direction modificara de manera visula el orden de los elmentos */ 
+    /* justify-content: flex-start; */
+    flex-direction: row  ;
+    /* space-between espacio entre las cajas
+        space-aroun espacio por cada caja
+        space-evenly espacio uniforme entre ellos*/
+    justify-content: space-evenly;
+    /* cuidado al cambiar el flex direcction y se modifique esto */
+    justify-content: center;
+    /*align-items alinea los elementos de forma vertical*/
+    /* si se tiene una sola fila se puede utilizar aling items pero cuando tenga mas filas es mejor utilizar aling content */
+     /* align-items: center;  */
+    /*align-content: space-around se apilan segun la orientacion de la caja general  */
+    align-content: center; 
+    /* wrap me permitira manejar variois elemntos en un mismo contenedor para saber si estos elemntos mantendran sus posiciones poniendose en filas de los demas */
+    /* flex-wrap: wrap-reverse;                  */
+}
+.caja{  
+    height: 100px;
+    /* width: 100px; */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.item1{
+    flex-basis: 50px;
+    /* grow me dara la relacion de crecimiento a comparacion de sus hermanos */
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.item2{
+    /*  predeterminado order=0 */
+    /* order: 3; */
+    flex-basis: 100px;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+.item3{
+    flex-basis: 70px;
+    flex-grow: 1;
+    flex-shrink: 3;
+    /* align-self: flex-end; */
+}
