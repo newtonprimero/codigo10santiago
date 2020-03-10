@@ -1,0 +1,9 @@
+Tecnologias para maquetar (diseñar la ) 
+
+-flexbox(2014) = esta orientada a alinear elementos
+modifica a su contenedor 
+
+1-los flex aplica al padre 
+2-se debe tener cuidado con la direccion 
+3-me permite tener los tamaños flexibles definiendolos en los hijos
+-grid(2017) = disposicion de elemnetos y layouts
