@@ -1,0 +1,55 @@
+.contenedor{
+    border: 1px solid gray;
+    padding: 10px;
+    height: 500px ;
+    /* indicamos que vamos a tener un display grid */
+    display: grid;
+    /* grid-template-columns: 400px 200px 150px;
+    grid-template-rows: 200px 100px 50px; */
+    /*grid-template: filas / columnas */
+    /* grid-template:200px 100px 50px / 400px 200px 150px ; */
+    /* grid-template:1fr 1fr 1fr / 150px 1fr 2fr ; */
+    grid-template: repeat(3,1fr) / repeat(4,1fr);
+    /*grid-gap= espaciado entre elemntos */
+    grid-gap: 10px;
+
+}
+.item{
+    border: 1px solid red;
+    background-color: skyblue;
+    padding: 10px;
+}
+/* /* nth-of-type me permite numerar mis elemntosy ubicar al elemnto por su numero */
+.item:nth-of-type(1){
+    background-color: purple;
+    /* le digo segun lineas de formadas por grillaque cambie su tamaño */
+    grid-column: 1 / 5;
+}
+.item:nth-of-type(2)
+{
+    background-color: green;
+    /* segun las lineas formadas por mi grilla que inicie en mi linea inicial/linea final */
+    grid-row: 2 / 4;
+}
+.item:nth-of-type(3){
+    background-color: indianred;
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+
+.contenedor2{
+    border: 1px solid black;
+    height: 500px;
+    display: grid;
+    /* grid-template  */
+    grid-template: repeat(3,100px)/repeat(3,minmax(150px,250px));
+    /* ninmax(tamañominimo,tamaño maximo) */
+    /* justify-content: ; */
+    justify-content: space-evenly;
+    /* solo se aplica a el align para valores fijos con px */
+    align-content: space-around;
+}
+.item2{
+    border: 1px solid rebeccapurple;
+}
